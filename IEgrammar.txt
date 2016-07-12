@@ -1,0 +1,92 @@
+S -> S X
+S -> RS X
+RS -> X EI16
+EI0 -> B15 B14
+EI1 -> EI0 B13
+EI2 -> EI1 B12
+EI3 -> EI2 B11
+EI4 -> EI3 B10
+EI5 -> EI4 B9
+EI6 -> EI5 B8
+EI7 -> EI6 B7
+EI8 -> EI7 B6
+EI9 -> EI8 B5
+EI10 -> EI9 B4
+EI11 -> EI10 B3
+EI12 -> EI11 B2
+EI13 -> EI12 B1
+EI14 -> EI13 B01
+EI15 -> EI14 B02
+EI16 -> EI15 B03
+X -> X X0
+X -> X0 X0
+X0 -> A
+X0 -> T
+X0 -> G
+X0 -> C
+B15 -> T
+B15 -> G
+B15 -> C
+B15 -> A
+B14 -> T
+B14 -> G
+B14 -> C
+B14 -> A
+B13 -> T
+B13 -> G
+B13 -> C
+B13 -> A
+B12 -> T
+B12 -> G
+B12 -> C
+B12 -> A
+B11 -> T
+B11 -> G
+B11 -> C
+B11 -> A
+B10 -> T
+B10 -> G
+B10 -> C
+B10 -> A
+B9 -> T
+B9 -> G
+B9 -> C
+B9 -> A
+B8 -> T
+B8 -> G
+B8 -> C
+B8 -> A
+B7 -> T
+B7 -> G
+B7 -> C
+B7 -> A
+B6 -> T
+B6 -> G
+B6 -> C
+B6 -> A
+B5 -> T
+B5 -> G
+B5 -> C
+B5 -> A
+B4 -> T
+B4 -> G
+B4 -> C
+B4 -> A
+B3 -> T
+B3 -> G
+B3 -> C
+B3 -> A
+B2 -> A
+B1 -> G
+B01 -> T
+B01 -> G
+B01 -> C
+B01 -> A
+B02 -> T
+B02 -> G
+B02 -> C
+B02 -> A
+B03 -> T
+B03 -> G
+B03 -> C
+B03 -> A

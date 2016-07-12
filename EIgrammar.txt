@@ -1,0 +1,62 @@
+S -> S X
+S -> RS X
+RS -> X EI10
+EI0 -> B4 B3
+EI1 -> EI0 B2
+EI2 -> EI1 B1
+EI3 -> EI2 B01
+EI4 -> EI3 B02
+EI5 -> EI4 B03
+EI6 -> EI5 B04
+EI7 -> EI6 B05
+EI8 -> EI7 B06
+EI9 -> EI8 B07
+EI10 -> EI9 B08
+X -> X X0
+X -> X0 X0
+X0 -> A
+X0 -> T
+X0 -> G
+X0 -> C
+B4 -> T
+B4 -> G
+B4 -> C
+B4 -> A
+B3 -> T
+B3 -> G
+B3 -> C
+B3 -> A
+B2 -> T
+B2 -> G
+B2 -> C
+B2 -> A
+B1 -> T
+B1 -> G
+B1 -> C
+B1 -> A
+B01 -> G
+B02 -> T
+B03 -> T
+B03 -> G
+B03 -> C
+B03 -> A
+B04 -> T
+B04 -> G
+B04 -> C
+B04 -> A
+B05 -> T
+B05 -> G
+B05 -> C
+B05 -> A
+B06 -> T
+B06 -> G
+B06 -> C
+B06 -> A
+B07 -> T
+B07 -> G
+B07 -> C
+B07 -> A
+B08 -> T
+B08 -> G
+B08 -> C
+B08 -> A
