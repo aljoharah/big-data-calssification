@@ -11,7 +11,7 @@ For experimentation, splice-junction DNA sample was used. It classifies splice-j
 -N (neither EI or IE)
 
 Testing sample was collected from
-https://archive.ics.uci.edu/ml/datasets/Molecular+Biology+(Splice-junction+Gene+Sequences . 
+https://archive.ics.uci.edu/ml/datasets/Molecular+Biology+(Splice-junction+Gene+Sequences) . 
 
 Results are saved in Results.txt file.
 
